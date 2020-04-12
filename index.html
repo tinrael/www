@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+  <meta charset="utf-8">
+  <title>Lorem</title>
+  <style>
+    .container1,
+    .container2,
+    .container3 {
+      width: 35%;
+      padding: 2% 1%;
+      background-image: url("images/background.jpg");
+      background-size: auto 100%;
+    }
+
+    .container1 {
+      float: left;
+    }
+
+    .container2 {
+      float: right;
+    }
+
+    .container3 {
+      position: absolute;
+      top: 25%;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+    }
+
+    .container1:after,
+    .container2:after,
+    .container3:after {
+      display: block;
+      content: "";
+      clear: both;
+    }
+
+    .main-section {
+      width: 60%;
+      float: left;
+    }
+
+    .main-content {
+      background-color: white;
+    }
+
+    nav {
+      border: medium solid white;
+    }
+
+    nav ul {
+      margin: 0;
+      padding-left: 1%;
+      background: linear-gradient(#aae0ff, #5ac3ff);
+    }
+
+    nav li {
+      display: inline-block;
+      width: 30%;
+    }
+
+    nav a {
+      display: block;
+      padding: 4%;
+      background: linear-gradient(#5ac3ff, #4988cd, #5ac3ff);
+      text-decoration: none;
+      color: white;
+    }
+
+    nav a.selected,
+    nav a:hover {
+      background: linear-gradient(#7cff6d, #4ebc41);
+    }
+
+    .article {
+      padding: 5%;
+    }
+
+    .article p {
+      margin: 0 0 5%;
+    }
+
+    .article img {
+      float: left;
+      border: thick inset #09d909;
+      max-width: 50%;
+      margin-right: 2%;
+    }
+
+    .sidebar {
+      width: 35%;
+      float: right;
+    }
+
+    .container1 .sidebar figure {
+      float: left;
+      margin: 2%;
+      width: 46%;
+    }
+
+    .container2 .sidebar figure {
+      margin: 2%;
+      width: 94%;
+    }
+
+    img {
+      box-sizing: border-box;
+      max-width: 100%;
+      border: thick solid white;
+    }
+
+    figure {
+      text-align: center;
+    }
+
+    figcaption {
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <div class="container1">
+    <div class="main-section">
+      <figure>
+        <img src="images/fox.jpg" alt="A fox">
+        <figcaption>Phasellus ut fringilla diam</figcaption>
+      </figure>
+
+      <div class="main-content">
+        <nav>
+          <ul>
+            <li><a href="#" class="selected">About</a></li>
+            <li><a href="#">Marketplace</a></li>
+            <li><a href="#">Network</a></li>
+          </ul>
+        </nav>
+
+        <div class="article">
+          <p>
+            <img src="images/fox.jpg" alt="A fox">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ullamcorper, velit et pulvinar molestie, nulla ex semper diam, ut tincidunt magna dui a enim. Nulla facilisi. Nam non egestas ligula. Phasellus ut fringilla diam. Etiam condimentum erat ut scelerisque faucibus. Maecenas non laoreet elit. Vivamus porttitor bibendum justo, consectetur dignissim odio posuere nec. Aliquam erat volutpat. Ut faucibus sem elit. Praesent tristique at ante eget tincidunt.
+          </p>
+
+          <p>
+            <a href="#">View The Website</a>
+          </p>
+        </div>
+      </div>
+
+    </div>
+    
+    <aside class="sidebar">
+      <figure>
+        <img src="images/fox.jpg" alt="A fox">
+        <figcaption>Phasellus</figcaption>
+      </figure>
+
+      <figure>
+        <img src="images/fox.jpg" alt="A fox">
+        <figcaption>Phasellus</figcaption>
+      </figure>
+
+      <figure>
+        <img src="images/fox.jpg" alt="A fox">
+        <figcaption>Phasellus</figcaption>
+      </figure>
+
+      <figure>
+        <img src="images/fox.jpg" alt="A fox">
+        <figcaption>Phasellus</figcaption>
+      </figure>
+
+      <figure>
+        <img src="images/fox.jpg" alt="A fox">
+        <figcaption>Phasellus</figcaption>
+      </figure>
+
+      <figure>
+        <img src="images/fox.jpg" alt="A fox">
+        <figcaption>Phasellus</figcaption>
+      </figure>
+
+      <figure>
+        <img src="images/fox.jpg" alt="A fox">
+        <figcaption>Phasellus</figcaption>
+      </figure>
+
+      <figure>
+        <img src="images/fox.jpg" alt="A fox">
+        <figcaption>Phasellus</figcaption>
+      </figure>
+    </aside>
+  </div>
+
+  <div class="container2">
+    <div class="main-section">
+      <figure>
+        <img src="images/fox.jpg" alt="A fox">
+        <figcaption>Phasellus ut fringilla diam</figcaption>
+      </figure>
+
+      <div class="main-content">
+        <nav>
+          <ul>
+            <li><a href="#" class="selected">About</a></li>
+            <li><a href="#">Marketplace</a></li>
+            <li><a href="#">Network</a></li>
+          </ul>
+        </nav>
+
+        <div class="article">
+          <p>
+            <img src="images/fox.jpg" alt="A fox">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ullamcorper, velit et pulvinar molestie, nulla ex semper diam, ut tincidunt magna dui a enim. Nulla facilisi. Nam non egestas ligula. Phasellus ut fringilla diam. Etiam condimentum erat ut scelerisque faucibus. Maecenas non laoreet elit. Vivamus porttitor bibendum justo, consectetur dignissim odio posuere nec. Aliquam erat volutpat. Ut faucibus sem elit. Praesent tristique at ante eget tincidunt.
+          </p>
+
+          <p>
+            <a href="#">View The Website</a>
+          </p>
+        </div>
+      </div>
+
+    </div>
+    
+    <aside class="sidebar">
+      <figure>
+        <img src="images/fox.jpg" alt="A fox">
+        <figcaption>Phasellus</figcaption>
+      </figure>
+
+      <figure>
+        <img src="images/fox.jpg" alt="A fox">
+        <figcaption>Phasellus</figcaption>
+      </figure>
+
+      <figure>
+        <img src="images/fox.jpg" alt="A fox">
+        <figcaption>Phasellus</figcaption>
+      </figure>
+
+      <figure>
+        <img src="images/fox.jpg" alt="A fox">
+        <figcaption>Phasellus</figcaption>
+      </figure>
+    </aside>
+  </div>
+
+
+  <div class="container3">
+    <div class="main-section">
+      <figure>
+        <img src="images/fox.jpg" alt="A fox">
+      </figure>
+
+      <div class="main-content">
+        <nav>
+          <ul>
+            <li><a href="#" class="selected">About</a></li>
+            <li><a href="#">Marketplace</a></li>
+            <li><a href="#">Network</a></li>
+          </ul>
+        </nav>
+
+        <div class="article">
+          <p>
+            <img src="images/fox.jpg" alt="A fox">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ullamcorper, velit et pulvinar molestie, nulla ex semper diam, ut tincidunt magna dui a enim. Nulla facilisi. Nam non egestas ligula. Phasellus ut fringilla diam. Etiam condimentum erat ut scelerisque faucibus. Maecenas non laoreet elit. Vivamus porttitor bibendum justo, consectetur dignissim odio posuere nec. Aliquam erat volutpat. Ut faucibus sem elit. Praesent tristique at ante eget tincidunt.
+          </p>
+
+          <p>
+            <a href="#">View The Website</a>
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>
